@@ -1,7 +1,9 @@
 import './Aside.css'
-function Aside(){
+function Aside(props){
+    let {open} = props
+
     return(
-        <aside>
+        <aside className={open ? '' : "hidden"}>
             <nav>
                 <a href='/'>Home</a>
                 <a href='/posts'>Posts</a>

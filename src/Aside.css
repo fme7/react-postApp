@@ -16,3 +16,13 @@ aside {
     }
   }
 }
+
+aside.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  aside {
+    display: block !important;
+  }
+}
