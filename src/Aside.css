@@ -1,0 +1,18 @@
+aside{
+    >nav{
+        display: flex;
+        flex-direction: column;
+        
+        >a{
+            background-color: #ccc;
+            text-decoration: none;
+            color: black;
+            padding: 8px;
+            display: block;
+            
+        }
+        >a.hover{
+
+        }
+    }
+}

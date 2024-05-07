@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  > div.logo {
+    letter-spacing: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  > div.toggleBtn {
+    cursor: pointer;
+  }
+}
